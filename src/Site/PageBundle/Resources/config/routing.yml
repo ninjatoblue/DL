@@ -1,0 +1,8 @@
+
+index:
+    pattern:  /
+    defaults: { _controller: SitePageBundle:Page:index }
+    
+livre_liste:
+    pattern:  /livre-dor
+    defaults: { _controller: SitePageBundle:Livre:liste}
